@@ -650,3 +650,92 @@ footer .rectangle {
 .map .when .riserved {
   color: grey;
 }
+
+.drop-menu {
+  display: flex;
+  width: 990px;
+  height: 669px;
+  border-radius: 50px;
+  background-color: #fff;
+  flex-direction: column;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  display: none;
+}
+.drop-menu .dmtext {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 48px;
+  line-height: auto;
+  padding-top: 94px;
+  padding-left: 87px;
+  width: 385px;
+}
+.drop-menu .dmadress {
+  padding-left: 16px;
+  min-height: 72px;
+  width: 412px;
+  height: 100%;
+  background-color: #f0f0f0;
+  margin-left: 83px;
+  margin-top: 40px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 24px;
+  line-height: auto;
+  border: none;
+}
+.drop-menu .dmadress:focus {
+  border: none;
+  outline: none;
+}
+.drop-menu .dmcard {
+  padding-left: 16px;
+  min-height: 72px;
+  width: 412px;
+  height: 100%;
+  background-color: #f0f0f0;
+  margin-left: 83px;
+  margin-top: 71px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 24px;
+  line-height: auto;
+  border: none;
+}
+.drop-menu .dmcard:focus {
+  border: none;
+  outline: none;
+}
+.drop-menu .dmbutton {
+  min-height: 57px;
+  width: 207px;
+  height: 100%;
+  border-radius: 17px;
+  background: #b47b48;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: auto;
+  margin-top: 54px;
+  margin-left: 83px;
+  border: none;
+  color: #fff;
+}
+.drop-menu .dmbutton:hover {
+  background-color: goldenrod;
+}
+.drop-menu .dmimg {
+  width: 476px;
+  height: 448px;
+  position: relative;
+  align-self: flex-end;
+  bottom: 400px;
+}

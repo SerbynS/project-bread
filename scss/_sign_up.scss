@@ -1,0 +1,81 @@
+.drop-menu {
+   display: flex;
+   width: 990px;
+   height: 669px;
+   border-radius: 50px;
+   background-color: #fff;
+   flex-direction: column;
+   position: fixed;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   z-index: 2;
+   display: none;
+
+   .dmtext {
+      @include textStyle(200, 48px, auto, "Inter");
+      padding-top: 94px;
+      padding-left: 87px;
+      width: 385px;
+   }
+
+   .dmadress {
+      padding-left: 16px;
+      min-height: 72px;
+      width: 412px;
+      height: 100%;
+      background-color: #f0f0f0;
+      margin-left: 83px;
+      margin-top: 40px;
+      @include textStyle(200, 24px, auto, "Inter");
+      border: none;
+      &:focus {
+         border: none;
+         outline: none;
+      }
+   }
+
+   .dmcard {
+      padding-left: 16px;
+      min-height: 72px;
+      width: 412px;
+      height: 100%;
+      background-color: #f0f0f0;
+      margin-left: 83px;
+      margin-top: 71px;
+      @include textStyle(200, 24px, auto, "Inter");
+      border: none;
+      &:focus {
+         border: none;
+         outline: none;
+      }
+   }
+
+   .dmbutton {
+      min-height: 57px;
+      width: 207px;
+      height: 100%;
+      border-radius: 17px;
+      background: #b47b48;
+      @include textStyle(300, 24px, auto, "Inter");
+      margin-top: 54px;
+      margin-left: 83px;
+      border: none;
+      color: #fff;
+      &:hover {
+         background-color: goldenrod;
+      }
+   }
+
+   .dmimg {
+      width: 476px;
+      height: 448px;
+      position: relative;
+      align-self: flex-end;
+      bottom: 400px;
+   }
+}
+
+// body{
+//     background-color: gray;
+// }

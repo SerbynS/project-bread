@@ -15,6 +15,13 @@
       />
    </head>
    <body>
+      <div class="drop-menu">
+         <h1 class="dmtext">TRADITIONAL ARTISAX BAKERY</h1>
+         <input class="dmadress" type="text" placeholder="Your adress" />
+         <input class="dmcard" type="text" placeholder="Your card" />
+         <button class="dmbutton">Shop now</button>
+         <img class="dmimg" src="./img/5a35de9b3dfe82 1.png" alt="bred" />
+      </div>
       <header>
          <div class="container">
             <nav>
@@ -36,7 +43,7 @@
                survived not only five centuries, but also the leap into
                electronic typesetting, remaining essentially unchanged.
             </p>
-            <button class="btn">SHOP NOW</button>
+            <button class="btn shp">SHOP NOW</button>
 
             <div class="cards">
                <div class="card">
@@ -44,7 +51,7 @@
                   <div class="card-text">
                      <p>$8.00(kg)</p>
                      <h5>American Cockie</h5>
-                     <button>BUY</button>
+                     <button class="shp">BUY</button>
                   </div>
                </div>
                <div class="card">
@@ -55,7 +62,7 @@
                         Crushed with <br />
                         chockolate
                      </h5>
-                     <button>BUY</button>
+                     <button class="shp">BUY</button>
                   </div>
                </div>
                <div class="card">
@@ -63,7 +70,7 @@
                   <div class="card-text">
                      <p>For piece $4.00</p>
                      <h5>Blackberry pie</h5>
-                     <button>BUY</button>
+                     <button class="shp">BUY</button>
                   </div>
                </div>
             </div>
@@ -79,7 +86,7 @@
                      <img src="./img/breads.png" alt="item" />
                      <h5>Breads</h5>
                   </div>
-                  <button>Order</button>
+                  <button class="shp">Order</button>
                </div>
 
                <div class="menu-card">
@@ -87,7 +94,7 @@
                      <img src="./img/Bekary.png" alt="item" />
                      <h5>Bekary</h5>
                   </div>
-                  <button>Order</button>
+                  <button class="shp">Order</button>
                </div>
 
                <div class="menu-card">
@@ -95,7 +102,7 @@
                      <img src="./img/Cakes & Capcakes.png" alt="item" />
                      <h5>Cakes & Capcakes</h5>
                   </div>
-                  <button>Order</button>
+                  <button class="shp">Order</button>
                </div>
 
                <div class="menu-card">
@@ -103,7 +110,7 @@
                      <img src="./img/Coockies&Pretzels.png" alt="item" />
                      <h5>Coockies & Pretzels</h5>
                   </div>
-                  <button>Order</button>
+                  <button class="shp">Order</button>
                </div>
             </div>
          </div>
@@ -213,5 +220,22 @@
             <p>@2022 Eatly.All right riserved.</p>
          </div>
       </footer>
+
+      <script>
+         let btnShop = document.querySelectorAll(".shp");
+         console.log(btnShop);
+         let dropmenu;
+         btnShop.forEach(function (element) {
+            element.addEventListener("click", function () {
+               dropmenu = document.querySelector(".drop-menu");
+               dropmenu.style.display = "flex";
+            });
+         });
+
+         let dmbutton = document.querySelector(".dmbutton");
+         dmbutton.addEventListener("click", function () {
+            dropmenu.style.display = "none";
+         });
+      </script>
    </body>
 </html>

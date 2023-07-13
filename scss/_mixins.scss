@@ -1,15 +1,26 @@
-@mixin text-style($weight, $size, $height){
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: $weight;
-    font-size: $size;
-    line-height: $height;
+@mixin text-style($weight, $size, $height) {
+   font-family: "Inter";
+   font-style: normal;
+   font-weight: $weight;
+   font-size: $size;
+   line-height: $height;
 }
 
 @mixin text-style2($weight, $size, $height) {
-    font-family: 'Italiana';
-    font-style: normal;
-    font-weight: $weight;
-    font-size: $size;
-    line-height: $height;
+   font-family: "Italiana";
+   font-style: normal;
+   font-weight: $weight;
+   font-size: $size;
+   line-height: $height;
+}
+@mixin textStyle($weight, $size, $line, $font) {
+   font-family: $font, sans-serif;
+   font-style: normal;
+   font-weight: $weight;
+   font-size: $size;
+   line-height: $line;
+}
+@mixin BorderStyle($color, $width, $style, $radius) {
+   border: $width $style $color;
+   border-radius: $radius;
 }
