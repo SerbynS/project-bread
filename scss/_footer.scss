@@ -1,0 +1,81 @@
+footer {
+   height: 351px;
+   background-color: #202023;
+   color: #ffffff;
+
+   & > div {
+      font-family: "Inter";
+      font-size: 20px;
+      font-weight: 300;
+      width: 1084px;
+      display: flex;
+      justify-content: space-between;
+      margin: 0 auto;
+
+      .logo {
+         font-family: "Inter";
+         font-weight: 200;
+         font-size: 40px;
+         height: 200px;
+         width: 322px;
+         padding-top: 70px;
+
+         & > p {
+            font-family: "Inter";
+            font-size: 20px;
+            font-weight: 300;
+            padding-top: 16px;
+         }
+      }
+
+      .about {
+         font-family: "Inter";
+         font-weight: 300;
+         font-size: 24px;
+         height: 157px;
+         width: 142px;
+         padding-top: 40px;
+
+         & > p {
+            padding-top: 41px;
+         }
+      }
+
+      .movement {
+         font-family: "Inter";
+         font-size: 24px;
+         font-weight: 300;
+         height: 128px;
+         width: 127px;
+         padding-top: 40px;
+
+         & > p {
+            padding-top: 41px;
+         }
+      }
+
+      .company {
+         font-family: "Inter";
+         font-size: 24px;
+         font-weight: 300;
+         height: 157px;
+         width: 118px;
+         padding-top: 40px;
+
+         & > p {
+            padding-top: 41px;
+         }
+      }
+   }
+
+   .rectangle {
+      display: inline;
+      //   padding-left: 880px;
+      font-family: "Inter";
+      font-size: 20px;
+      font-weight: 100;
+      width: auto;
+      margin: 0;
+      text-align: center;
+   }
+}

@@ -1,0 +1,57 @@
+.map {
+    background-color: #202023;
+    color: #FFFFFF;
+    padding-top: 66px;
+    padding-left: 160.66px;
+
+    h2 {
+        font-family: "Italiana";
+        height: 57px;
+        width: 517px;
+        font-size: 48px;
+        padding-bottom: 44px;
+    }
+
+    .content {
+        display: flex;
+        font-family: "Inter";
+    }
+
+    .how {
+        font-family: "Inter";
+        width: 500px;
+        color: grey;
+        margin-left: 132px;
+
+        h3 {
+            font-size: 40px;
+            color: #FFFFFF;
+        }
+
+        p {
+            font-size: 24px;
+            padding-top: 49px;
+            width: 225px;
+        }
+    }
+
+    .when {
+        width: 199px;
+        font-family: "Inter";
+        color: grey;
+
+        h4 {
+            font-size: 40px;
+            color: #FFFFFF;
+        }
+
+        p {
+            font-size: 24px;
+            padding-top: 40px;
+        }
+
+        .riserved {
+            color: grey;
+        }
+    }
+}

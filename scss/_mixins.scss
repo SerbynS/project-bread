@@ -1,0 +1,15 @@
+@mixin text-style($weight, $size, $height){
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: $weight;
+    font-size: $size;
+    line-height: $height;
+}
+
+@mixin text-style2($weight, $size, $height) {
+    font-family: 'Italiana';
+    font-style: normal;
+    font-weight: $weight;
+    font-size: $size;
+    line-height: $height;
+}

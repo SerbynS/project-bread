@@ -1,0 +1,219 @@
+.quality {
+  display: flex;
+  position: relative;
+  background-color: #202023;
+  background-image: url(../img/backgraundquality1.png), url(../img/backgraundquality2.png), url(../img/backgraundquality.png);
+  padding-top: 200px;
+  height: 852px;
+  background-repeat: no-repeat;
+  background-position: left bottom, center bottom, right bottom;
+  box-sizing: border-box;
+  
+  
+
+  .bread {
+    position: absolute;
+    left: 172px;
+    top: 104px;
+    
+
+    p {
+      color: #FFF;
+      font-size: 15px;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal; 
+    width: 197.8px;
+    height: 91px;
+    padding-top: 26px;
+    padding-bottom: 28px;
+    padding-left: 13px;
+    margin-left: 132px;
+    background: rgba(242, 242, 242, 0.3);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(18px);
+    color: white;
+    }
+  }
+
+.pngegg {
+  position: absolute;
+  left: 520px;
+  top: 249px;
+
+p{
+  color: #FFF;
+      font-size: 15px;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal; 
+  width: 197.08px;
+  height: 91px;
+  padding-top: 26px;
+    padding-bottom: 28px;
+    padding-left: 10px;
+  margin-left: 50px;
+  background: rgba(242, 242, 242, 0.3);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(18px);
+  color: white;
+}
+}
+
+.pngwing {
+  position: absolute;
+  top: 288px;
+  left: 840px;
+  
+
+p {
+  color: #FFF;
+      font-size: 15px;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal; 
+  width: 197.53px;
+  height: 91px;
+  padding-top: 26px;
+    padding-bottom: 28px;
+    padding-left: 20px;
+  margin-left: 75px;
+  background: rgba(242, 242, 242, 0.3);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(18px);
+  color: white;
+}
+}
+
+  
+
+h1 {
+  position: absolute;
+  font-family: 'Italiana';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 75px;
+  color: #FFFFFF;
+  left: 593px;
+  top: 100px;
+}
+
+.breader {
+  width: 356px;
+  height: 223px;
+}
+
+.pngegger {
+  width: 275px;
+  height: 284px;
+}
+
+.pngwinger {
+  width: 334px;
+  height: 332px;
+}
+}
+
+.bekary {
+  position: relative;
+  display: flex;
+  background-image: url(../img/photo_2022-06-23_21-45-36\ 1.svg);
+  z-index: -2;
+  .block {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(89deg, #000 0%, rgba(3, 3, 3, 0.00) 100%);
+    z-index: -1;
+  }
+  height: 550px;
+  
+
+  h2 {
+    width: 735px;
+    height: 114px;
+    padding-left: 165px;
+    padding-top: 55px;
+
+    font-family: 'Italiana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 57px;
+
+    color: #D9D9D9;
+  }
+
+  .ARTIS {
+    .order {
+      position: absolute;
+      left: 252px;
+      top: 301px;
+      
+      p {
+        position: absolute;
+        width: 188px;
+        left: -15px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        /* identical to box height */
+
+        color: #FFFFFF;
+      }
+    }
+
+    .food {
+      position: absolute;
+      left: 592px;
+      top: 288px;
+
+      p {
+        position: absolute;
+        width: 153px;
+        height: 29px;
+        left: 78px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        /* identical to box height */
+
+
+        color: #FFFFFF;
+      }
+    }
+
+    .speed {
+      position: absolute;
+      left: 992px;
+      top: 280px;
+
+      p {
+        position: absolute;
+        width: 251px;
+        height: 29px;
+        left: -23px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        /* identical to box height */
+
+        color: #FFFFFF;
+      }
+    }
+  }
+}
