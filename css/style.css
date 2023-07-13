@@ -674,7 +674,7 @@ footer .rectangle {
   padding-top: 94px;
   padding-left: 87px;
   width: 385px;
-  color: black;
+  color: black !important;
 }
 .drop-menu .dmadress {
   padding-left: 16px;
